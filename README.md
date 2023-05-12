@@ -38,14 +38,6 @@
         cd test 
         python patch_cnn_test.py
         ```
-    
-    ## Result
-    - the data enhancement such as learning rate decay and mixup has not been used for the follow results.
-    
-        | Dataset    | Average accuracy(%) |
-        | :----------| --- |
-        | CASIA-FASD |  93.52 |
-        | CASIA-SURF |  88.88 |
         
 - depth_based_cnn
     - Modify the configuration file: patch_based_cnn.py
